@@ -57,6 +57,7 @@ int LVL_constructor(int& lvl_number, int& top_number) { // return how many attem
 			if (cin.fail()) { // if input has incorrent type
 				cin.clear();
 				cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+				system("cls");
 			}
 		}
 		if (user_guess_number == rand_number) {
